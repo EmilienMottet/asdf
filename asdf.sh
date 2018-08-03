@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -x
 if [ "${BASH_SOURCE[0]}" != "" ]; then
   current_script_path="${BASH_SOURCE[0]}"
 else
